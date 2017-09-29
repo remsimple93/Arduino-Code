@@ -24,7 +24,7 @@ float temperatureC;         // Temperature in Celcius
 String dataString;          // data entry for experiments
 String CurrentTime;         // for making file names
 char daysOfTheWeek[7][12] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}; // for RTC to refer to
-long elapsedTime;           // to be used as timer during experiments, not being used at the moment
+long elapsedTime;           // to be used as timer during experiments
 long startTime;
 String fileName;
 char pHbuff[9];
